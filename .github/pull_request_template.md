@@ -57,5 +57,3 @@ Antes de solicitar la revisión del pull request, confirme lo siguiente:
 ## Observaciones adicionales
 
 Incluya cualquier información que deba considerar la persona encargada de revisar el pull request.
-
-<!-- Elimine esta sección si no existen observaciones adicionales. -->
