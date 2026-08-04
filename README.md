@@ -267,3 +267,6 @@ URL_DE_NEON_DEVELOPMENT
 ```
 
 por la cadena de conexión de la base de datos de desarrollo en Neon.
+
+## Estado del proyecto
+El repositorio utiliza GitHub Actions para validar pruebas, formato y recursos frontend.
