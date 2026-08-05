@@ -48,6 +48,10 @@ RUN cp "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
         opcache \
         bcmath
 
+# Render utiliza un puerto no privilegiado, por lo que esta
+# capacidad del ejecutable FrankenPHP no es necesaria.
+RUN setcap -r /usr/local/bin/frankenphp
+        
 # Copiar el código fuente de la aplicación
 COPY . .
 
