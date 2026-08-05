@@ -79,3 +79,19 @@ jobs:
 
       - name: Run tests
         run: php artisan test
+
+  docker-build:
+    name: Docker image build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    needs:
+      - laravel-quality
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      
+      - name: Build production Docker image
+        run: |
+          docker build \
+            --tag webdev-laravel-starter:ci \
+            .
