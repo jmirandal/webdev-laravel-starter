@@ -267,3 +267,5 @@ URL_DE_NEON_DEVELOPMENT
 ```
 
 por la cadena de conexión de la base de datos de desarrollo en Neon.
+
+<!-- branch protection test -->
