@@ -48,6 +48,7 @@ Antes de instalar el proyecto, asegúrese de contar con:
 - Git.
 - Visual Studio Code.
 - Una cuenta de Neon.
+- Una cuenta de Render.
 
 > No es necesario instalar Docker ni PostgreSQL localmente.
 
